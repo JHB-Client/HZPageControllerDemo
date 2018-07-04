@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0324FB7A20E4B8640053ABED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FB7920E4B8640053ABED /* AppDelegate.m */; };
+		0324FB7D20E4B8640053ABED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FB7C20E4B8640053ABED /* ViewController.m */; };
+		0324FB8020E4B8640053ABED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0324FB7E20E4B8640053ABED /* Main.storyboard */; };
+		0324FB8220E4B8640053ABED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0324FB8120E4B8640053ABED /* Assets.xcassets */; };
+		0324FB8520E4B8640053ABED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0324FB8320E4B8640053ABED /* LaunchScreen.storyboard */; };
+		0324FB8820E4B8640053ABED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FB8720E4B8640053ABED /* main.m */; };
+		0324FB9220E4B8640053ABED /* HZPageViewControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FB9120E4B8640053ABED /* HZPageViewControllerDemoTests.m */; };
+		0324FB9D20E4B8640053ABED /* HZPageViewControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0324FB9C20E4B8640053ABED /* HZPageViewControllerDemoUITests.m */; };
+		428531BB5D7DD9354A7BD506 /* libPods-HZPageViewControllerDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DE1812A488CD55FEAF30F0 /* libPods-HZPageViewControllerDemoTests.a */; };
+		7CEC29EC75A8FA901E1121EC /* libPods-HZPageViewControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C3FFCA10404D4864EEDC0E /* libPods-HZPageViewControllerDemo.a */; };
+		9FCE874261E9944DDC693C06 /* libPods-HZPageViewControllerDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75F78F5324056B6F34C390FA /* libPods-HZPageViewControllerDemoUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0324FB8E20E4B8640053ABED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0324FB6D20E4B8640053ABED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0324FB7420E4B8640053ABED;
+			remoteInfo = HZPageViewControllerDemo;
+		};
+		0324FB9920E4B8640053ABED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0324FB6D20E4B8640053ABED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0324FB7420E4B8640053ABED;
+			remoteInfo = HZPageViewControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0324FB7520E4B8640053ABED /* HZPageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZPageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0324FB7820E4B8640053ABED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0324FB7920E4B8640053ABED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0324FB7B20E4B8640053ABED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0324FB7C20E4B8640053ABED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0324FB7F20E4B8640053ABED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0324FB8120E4B8640053ABED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0324FB8420E4B8640053ABED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0324FB8620E4B8640053ABED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0324FB8720E4B8640053ABED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0324FB8D20E4B8640053ABED /* HZPageViewControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZPageViewControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0324FB9120E4B8640053ABED /* HZPageViewControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZPageViewControllerDemoTests.m; sourceTree = "<group>"; };
+		0324FB9320E4B8640053ABED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0324FB9820E4B8640053ABED /* HZPageViewControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZPageViewControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0324FB9C20E4B8640053ABED /* HZPageViewControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZPageViewControllerDemoUITests.m; sourceTree = "<group>"; };
+		0324FB9E20E4B8640053ABED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323AB41680418FD6D4F0C804 /* Pods-HZPageViewControllerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPageViewControllerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZPageViewControllerDemoUITests/Pods-HZPageViewControllerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		57DE1812A488CD55FEAF30F0 /* libPods-HZPageViewControllerDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZPageViewControllerDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F78F5324056B6F34C390FA /* libPods-HZPageViewControllerDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZPageViewControllerDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC822F17686B6B535A654878 /* Pods-HZPageViewControllerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPageViewControllerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZPageViewControllerDemoTests/Pods-HZPageViewControllerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3C3FFCA10404D4864EEDC0E /* libPods-HZPageViewControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZPageViewControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47A63E7475E88E1D62B51DE /* Pods-HZPageViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPageViewControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZPageViewControllerDemo/Pods-HZPageViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BBB3A02BCCA4697F449F348E /* Pods-HZPageViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPageViewControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZPageViewControllerDemo/Pods-HZPageViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BF1D1639A137908A1BCCC21A /* Pods-HZPageViewControllerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPageViewControllerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZPageViewControllerDemoTests/Pods-HZPageViewControllerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBF14E6BA68B2CA03634E654 /* Pods-HZPageViewControllerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPageViewControllerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZPageViewControllerDemoUITests/Pods-HZPageViewControllerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0324FB7220E4B8640053ABED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CEC29EC75A8FA901E1121EC /* libPods-HZPageViewControllerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324FB8A20E4B8640053ABED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428531BB5D7DD9354A7BD506 /* libPods-HZPageViewControllerDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324FB9520E4B8640053ABED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCE874261E9944DDC693C06 /* libPods-HZPageViewControllerDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0324FB6C20E4B8640053ABED = {
+			isa = PBXGroup;
+			children = (
+				0324FB7720E4B8640053ABED /* HZPageViewControllerDemo */,
+				0324FB9020E4B8640053ABED /* HZPageViewControllerDemoTests */,
+				0324FB9B20E4B8640053ABED /* HZPageViewControllerDemoUITests */,
+				0324FB7620E4B8640053ABED /* Products */,
+				0ACB107C3C2D3B44A4D554B7 /* Pods */,
+				FE3BD76DFD0B34F12EB64371 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0324FB7620E4B8640053ABED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0324FB7520E4B8640053ABED /* HZPageViewControllerDemo.app */,
+				0324FB8D20E4B8640053ABED /* HZPageViewControllerDemoTests.xctest */,
+				0324FB9820E4B8640053ABED /* HZPageViewControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0324FB7720E4B8640053ABED /* HZPageViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0324FB7820E4B8640053ABED /* AppDelegate.h */,
+				0324FB7920E4B8640053ABED /* AppDelegate.m */,
+				0324FB7B20E4B8640053ABED /* ViewController.h */,
+				0324FB7C20E4B8640053ABED /* ViewController.m */,
+				0324FB7E20E4B8640053ABED /* Main.storyboard */,
+				0324FB8120E4B8640053ABED /* Assets.xcassets */,
+				0324FB8320E4B8640053ABED /* LaunchScreen.storyboard */,
+				0324FB8620E4B8640053ABED /* Info.plist */,
+				0324FB8720E4B8640053ABED /* main.m */,
+			);
+			path = HZPageViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		0324FB9020E4B8640053ABED /* HZPageViewControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0324FB9120E4B8640053ABED /* HZPageViewControllerDemoTests.m */,
+				0324FB9320E4B8640053ABED /* Info.plist */,
+			);
+			path = HZPageViewControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		0324FB9B20E4B8640053ABED /* HZPageViewControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0324FB9C20E4B8640053ABED /* HZPageViewControllerDemoUITests.m */,
+				0324FB9E20E4B8640053ABED /* Info.plist */,
+			);
+			path = HZPageViewControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		0ACB107C3C2D3B44A4D554B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B47A63E7475E88E1D62B51DE /* Pods-HZPageViewControllerDemo.debug.xcconfig */,
+				BBB3A02BCCA4697F449F348E /* Pods-HZPageViewControllerDemo.release.xcconfig */,
+				AC822F17686B6B535A654878 /* Pods-HZPageViewControllerDemoTests.debug.xcconfig */,
+				BF1D1639A137908A1BCCC21A /* Pods-HZPageViewControllerDemoTests.release.xcconfig */,
+				EBF14E6BA68B2CA03634E654 /* Pods-HZPageViewControllerDemoUITests.debug.xcconfig */,
+				323AB41680418FD6D4F0C804 /* Pods-HZPageViewControllerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE3BD76DFD0B34F12EB64371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3C3FFCA10404D4864EEDC0E /* libPods-HZPageViewControllerDemo.a */,
+				57DE1812A488CD55FEAF30F0 /* libPods-HZPageViewControllerDemoTests.a */,
+				75F78F5324056B6F34C390FA /* libPods-HZPageViewControllerDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0324FB7420E4B8640053ABED /* HZPageViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0324FBA120E4B8640053ABED /* Build configuration list for PBXNativeTarget "HZPageViewControllerDemo" */;
+			buildPhases = (
+				E20E12D45C862AB997C43793 /* [CP] Check Pods Manifest.lock */,
+				0324FB7120E4B8640053ABED /* Sources */,
+				0324FB7220E4B8640053ABED /* Frameworks */,
+				0324FB7320E4B8640053ABED /* Resources */,
+				BEDC0FF2CA11FEE8239A30B6 /* [CP] Embed Pods Frameworks */,
+				C9AEA3B36D16DF8D0EDE8F48 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZPageViewControllerDemo;
+			productName = HZPageViewControllerDemo;
+			productReference = 0324FB7520E4B8640053ABED /* HZPageViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0324FB8C20E4B8640053ABED /* HZPageViewControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0324FBA420E4B8640053ABED /* Build configuration list for PBXNativeTarget "HZPageViewControllerDemoTests" */;
+			buildPhases = (
+				F1E6A11CADE38AA6FF41F7C2 /* [CP] Check Pods Manifest.lock */,
+				0324FB8920E4B8640053ABED /* Sources */,
+				0324FB8A20E4B8640053ABED /* Frameworks */,
+				0324FB8B20E4B8640053ABED /* Resources */,
+				C36195F35465BBC3A9DD59FD /* [CP] Embed Pods Frameworks */,
+				82902D2393D8CB0C98FDEA81 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0324FB8F20E4B8640053ABED /* PBXTargetDependency */,
+			);
+			name = HZPageViewControllerDemoTests;
+			productName = HZPageViewControllerDemoTests;
+			productReference = 0324FB8D20E4B8640053ABED /* HZPageViewControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0324FB9720E4B8640053ABED /* HZPageViewControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0324FBA720E4B8640053ABED /* Build configuration list for PBXNativeTarget "HZPageViewControllerDemoUITests" */;
+			buildPhases = (
+				3342391FEE53442DDB420873 /* [CP] Check Pods Manifest.lock */,
+				0324FB9420E4B8640053ABED /* Sources */,
+				0324FB9520E4B8640053ABED /* Frameworks */,
+				0324FB9620E4B8640053ABED /* Resources */,
+				0B26FCAE10163678FD92BF1D /* [CP] Embed Pods Frameworks */,
+				B1C947281B44CB0E5A1A3E30 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0324FB9A20E4B8640053ABED /* PBXTargetDependency */,
+			);
+			name = HZPageViewControllerDemoUITests;
+			productName = HZPageViewControllerDemoUITests;
+			productReference = 0324FB9820E4B8640053ABED /* HZPageViewControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0324FB6D20E4B8640053ABED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = huazhuo;
+				TargetAttributes = {
+					0324FB7420E4B8640053ABED = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0324FB8C20E4B8640053ABED = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0324FB7420E4B8640053ABED;
+					};
+					0324FB9720E4B8640053ABED = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0324FB7420E4B8640053ABED;
+					};
+				};
+			};
+			buildConfigurationList = 0324FB7020E4B8640053ABED /* Build configuration list for PBXProject "HZPageViewControllerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0324FB6C20E4B8640053ABED;
+			productRefGroup = 0324FB7620E4B8640053ABED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0324FB7420E4B8640053ABED /* HZPageViewControllerDemo */,
+				0324FB8C20E4B8640053ABED /* HZPageViewControllerDemoTests */,
+				0324FB9720E4B8640053ABED /* HZPageViewControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0324FB7320E4B8640053ABED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0324FB8520E4B8640053ABED /* LaunchScreen.storyboard in Resources */,
+				0324FB8220E4B8640053ABED /* Assets.xcassets in Resources */,
+				0324FB8020E4B8640053ABED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324FB8B20E4B8640053ABED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324FB9620E4B8640053ABED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B26FCAE10163678FD92BF1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZPageViewControllerDemoUITests/Pods-HZPageViewControllerDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3342391FEE53442DDB420873 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZPageViewControllerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82902D2393D8CB0C98FDEA81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZPageViewControllerDemoTests/Pods-HZPageViewControllerDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C947281B44CB0E5A1A3E30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZPageViewControllerDemoUITests/Pods-HZPageViewControllerDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDC0FF2CA11FEE8239A30B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZPageViewControllerDemo/Pods-HZPageViewControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C36195F35465BBC3A9DD59FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZPageViewControllerDemoTests/Pods-HZPageViewControllerDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9AEA3B36D16DF8D0EDE8F48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZPageViewControllerDemo/Pods-HZPageViewControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E20E12D45C862AB997C43793 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZPageViewControllerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E6A11CADE38AA6FF41F7C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HZPageViewControllerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0324FB7120E4B8640053ABED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0324FB7D20E4B8640053ABED /* ViewController.m in Sources */,
+				0324FB8820E4B8640053ABED /* main.m in Sources */,
+				0324FB7A20E4B8640053ABED /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324FB8920E4B8640053ABED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0324FB9220E4B8640053ABED /* HZPageViewControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0324FB9420E4B8640053ABED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0324FB9D20E4B8640053ABED /* HZPageViewControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0324FB8F20E4B8640053ABED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0324FB7420E4B8640053ABED /* HZPageViewControllerDemo */;
+			targetProxy = 0324FB8E20E4B8640053ABED /* PBXContainerItemProxy */;
+		};
+		0324FB9A20E4B8640053ABED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0324FB7420E4B8640053ABED /* HZPageViewControllerDemo */;
+			targetProxy = 0324FB9920E4B8640053ABED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0324FB7E20E4B8640053ABED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0324FB7F20E4B8640053ABED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0324FB8320E4B8640053ABED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0324FB8420E4B8640053ABED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0324FB9F20E4B8640053ABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0324FBA020E4B8640053ABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0324FBA220E4B8640053ABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47A63E7475E88E1D62B51DE /* Pods-HZPageViewControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZPageViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZPageViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0324FBA320E4B8640053ABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB3A02BCCA4697F449F348E /* Pods-HZPageViewControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZPageViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZPageViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0324FBA520E4B8640053ABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC822F17686B6B535A654878 /* Pods-HZPageViewControllerDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZPageViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZPageViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZPageViewControllerDemo.app/HZPageViewControllerDemo";
+			};
+			name = Debug;
+		};
+		0324FBA620E4B8640053ABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1D1639A137908A1BCCC21A /* Pods-HZPageViewControllerDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZPageViewControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZPageViewControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZPageViewControllerDemo.app/HZPageViewControllerDemo";
+			};
+			name = Release;
+		};
+		0324FBA820E4B8640053ABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF14E6BA68B2CA03634E654 /* Pods-HZPageViewControllerDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZPageViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZPageViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HZPageViewControllerDemo;
+			};
+			name = Debug;
+		};
+		0324FBA920E4B8640053ABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323AB41680418FD6D4F0C804 /* Pods-HZPageViewControllerDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J36ZY42JY9;
+				INFOPLIST_FILE = HZPageViewControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wowjoy.HZPageViewControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HZPageViewControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0324FB7020E4B8640053ABED /* Build configuration list for PBXProject "HZPageViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0324FB9F20E4B8640053ABED /* Debug */,
+				0324FBA020E4B8640053ABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0324FBA120E4B8640053ABED /* Build configuration list for PBXNativeTarget "HZPageViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0324FBA220E4B8640053ABED /* Debug */,
+				0324FBA320E4B8640053ABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0324FBA420E4B8640053ABED /* Build configuration list for PBXNativeTarget "HZPageViewControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0324FBA520E4B8640053ABED /* Debug */,
+				0324FBA620E4B8640053ABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0324FBA720E4B8640053ABED /* Build configuration list for PBXNativeTarget "HZPageViewControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0324FBA820E4B8640053ABED /* Debug */,
+				0324FBA920E4B8640053ABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0324FB6D20E4B8640053ABED /* Project object */;
+}
